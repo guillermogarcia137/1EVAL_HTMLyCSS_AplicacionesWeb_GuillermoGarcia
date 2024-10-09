@@ -7,31 +7,38 @@
 </head>
 <style>
     body{
-        font-size:30px;
+        font-size: 20px;
         font-family:monospace;
+        background-color:cornflowerblue;
+    
         
     }
+    p ,ol, ul, li, dl{
+        color: white;
+    }
+    
 </style>
 <body>
-    <h1>Ejercicio de listas</h1>
+    <h1 style="color:white;">Ejercicio de listas</h1>
     <p>
         <ol>
             <li>Primero</li>
             <li>Segundo</li>
             <li>Tercero</li>
+            <ul>
+                <li style="list-style-type:square;">Lista</li>
+                <li style="list-style-type:square;">Desordenada</li>
+                <ol reversed start="200">
+                    <li>Puedo meter una lista</li>
+                    <li>Detro de otra lista</li>
+                    <li value="501">puedo ponerle el valor que quiera</li>
+                    
+                </ol>
+            </ul>
         </ol>
-        <ul>
-            <li>Lista</li>
-            <li>Desordenada</li>
-            <ol reversed start="200">
-                <li>Puedo meter una lista</li>
-                <li>Detro de otra lista</li>
-                <li value="501">puedo ponerle el valor que quiera</li>
-            </ol>
-        </ul>
     </p>
     <br>
-    <p style="color:midnightblue;">
+    <p>
         Tambien estan las lista de definición
         <dl>
             Esto es para poder delimitar y empezar la lista
