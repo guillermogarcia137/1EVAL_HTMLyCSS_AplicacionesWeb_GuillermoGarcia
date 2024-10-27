@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba listas</title>
+</head>
+<style>
+    body{
+        font-size: 20px;
+        font-family:monospace;
+        background-color:cornflowerblue;
+    
+        
+    }
+    p ,ol, ul, li, dl{
+        color: white;
+    }
+    
+</style>
+<body>
+    <h1 style="color:white;">Ejercicio de listas</h1>
+    <p>
+        <ol>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <ul>
+                <li style="list-style-type:square;">Lista</li>
+                <li style="list-style-type:square;">Desordenada</li>
+                <ol reversed start="200">
+                    <li>Puedo meter una lista</li>
+                    <li>Detro de otra lista</li>
+                    <li value="501">puedo ponerle el valor que quiera</li>
+                    
+                </ol>
+            </ul>
+        </ol>
+    </p>
+    <br>
+    <p>
+        Tambien estan las lista de definición
+        <dl>
+            Esto es para poder delimitar y empezar la lista
+            <dt>Esto es para delimitar los terminos</dt>
+            <dd>Y esto es para delimitar las definiciones</dd>
+            <dd>Y estas 2</dd>
+            <dt>se pueden poner en cualquier orden</dt>
+        </dl>
+    </p>
+    <p>
+        Hay diferentes tipos de numeracion de las lista ordenadas con la etiqueta type
+        <ol>
+            <li type="1">1 para numeros enteros</li>
+            <li type="a"> a para ordenar alfabéticamente en minúsculas</li>
+            <li type="A"> A para ordenar alfabéticamente en mayúsculas</li>
+            <li type="i">i para listas numeradas con número romanos en minúsculas</li>
+            <li type="I">I para listas numeradas con número romanos en mayúsculas</li>
+        </ol>
+    </p>
+</body>
+</html>

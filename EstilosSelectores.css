@@ -1,0 +1,37 @@
+body, p, div{
+    background-color:cornflowerblue;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+h1{
+    color:blue;
+}
+#titulo{
+    color:red;
+}
+#Parrafo{
+    border: white 8px groove;
+    margin: 10px;
+}
+
+p {
+    border-top: black 5px dashed;
+    border-right: green 10px double;
+    border-bottom: blue 10px dotted;
+    border-left: red 5px solid;
+    width:fit-content;
+    box-sizing: content-box;
+    border-style: solid;s
+  }
+  footer{
+    border: 5px solid black;
+    border-radius: 20px;
+    width:120px;
+    
+  }
+  #Blanco{
+    color: white;
+    border:5px solid white;
+    border-radius: 20%;
+  }

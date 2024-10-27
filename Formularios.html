@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="EstilosFormularios.css">
+</head>
+<body>
+    <center>
+    <div id="titulo">
+        <h1>Formulario</h1>
+    </div>
+    <table>
+    <tr>
+    <td>
+    <form action="">
+        <p>    
+            <label for="" style="color: blue;" >Nombre</label>
+            <input typeº11º="text" required placeholder="Escriba su nombre">
+        </p>
+        <p>
+            <label for="">Apellidos</label>
+            <input type="text" required>
+        </p>
+        <p>
+            <label for="">Edad</label>
+            <input type="number" name="nacido" min="0" max="99" required>
+        </p>
+        <p>
+            <label for="">Sexo</label>
+            <input type="radio" name="genero" value="1"> Hombre
+            <input type="radio" name="genero" value="2"> Mujer
+            <input type="radio" name="genero"value="3"> Otro 
+        </p>
+        <p>
+            <label for="">Télefono</label>
+            <input type="tel" type="number">    
+        </p>
+        <p>
+            <label for="">Dirección</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Pais</label>
+            <select name="Pais"id=""  >
+                <option selected></option>
+                <option value="1">España</option>
+                <option value="2">Italia</option>
+                <option value="3">Francia</option>
+                <option value="4">Andorra</option>
+                <option value="5">Portugal</option>
+                <optgroup label="Fuera de Europa">
+                    <option value="6">Estados Unidos</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            Residente en España<input type="checkbox" name="Resicencia en España">
+        </p>
+        <p>
+            <label for="">Color favorito</label>
+            <input type="color" name="color" value="">
+        </p>
+        <p>
+            <label for="Nivel de Inglés">Nivel de Inglés
+                <input type="range" name="nivel de Inglés" min="1" max="6" list="nivel de Inglés">
+                <datalist id="nivel de ingles">
+                    <option value="1">A1</option>
+                    <option value="2">A2</option>
+                    <option value="3">B1</option>
+                    <option value="4">B2</option>
+                    <option value="5">C1</option>
+                    <option value="6">C2</option>
+                </datalist>
+            </label>
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email">
+        </p>
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+    </td>
+    </tr>
+    </table>
+    </center>  
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+table,tr,td,th{
+    font-size: 20px;
+    font-family: monospace;
+    border-collapse:collapse;
+    width:850px;
+    height:50px;
+    text-align: center;
+}
+body{
+    background-color:skyblue;
+}
+.Dias{
+    background-color: orangered;
+    color: white;
+    border-color: black;
+    border:1px;
+    
+}
+.Hora{
+    background-color: white;
+}
+.ServiciosenRed{
+    background-color:#52d6fc;
+    
+}
+.SOenRed{
+    background-color:#e192ff;
+    
+}
+.SeguridadInformatica{
+    background-color:#b2dd8b;
+    
+}
+.Empresa{
+    background-color:#ff4014;
+    
+}
+.Inglés{
+    background-color:#e4ee67;
+   
+}
+.AplicacionesWeb{
+    background-color:#fe8649 ;
+   
+}
+h2#titulo{
+    color:blue;
+    background-color: white;
+    width: 29%;
+}
+th#Recreo{
+    background-color: white;
+}

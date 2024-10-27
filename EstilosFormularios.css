@@ -1,0 +1,15 @@
+body,form, div{ 
+    font-size: 20px;
+    font-family: monospace;
+    background-color: cornflowerblue;
+}
+table{
+    background-color: cornflowerblue;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+div{
+    color: red;
+    borde
+}
