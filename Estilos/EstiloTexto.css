@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-size: 25px;
+    background-color: cornflowerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p#Batman{
+color:yellow;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align:right; 
+
+}
+
+#Robin{
+    color: red;
+    font-family: monospace;
+    text-align:left;
+}
+#Batmovil{
+    color: darkorange;
+    font-family: unset;
+    text-align:center;
+    vertical-align:text-bottom;
+}
+.textobatman{
+    text-align: center;
+    vertical-align:middle;
+    word-spacing: 60px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+img{
+    vertical-align:text-top;
+}
