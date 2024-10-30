@@ -8,9 +8,7 @@ p#Batman{
 color:yellow;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align:right; 
-
 }
-
 #Robin{
     color: red;
     font-family: monospace;
@@ -25,11 +23,53 @@ text-align:right;
 .textobatman{
     text-align: center;
     vertical-align:middle;
-    word-spacing: 60px;
+    word-spacing: 30px;
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
+    letter-spacing: 8px;
 }
 img{
     vertical-align:text-top;
+}
+.span1{
+    word-spacing:8px;
+}
+.span2{
+    letter-spacing: 20px;
+}
+.negativo1{
+    word-spacing:-8px;
+}
+.negativo2{
+    letter-spacing: -20px;
+}
+.text1{
+    text-decoration: underline;
+}.text2{
+    text-decoration: overline;
+}
+.text3{
+    text-decoration:line-through;
+    color: red;
+}
+.text4{
+    text-transform: capitalize;
+}
+.text5{
+    text-transform: uppercase ;
+}
+.text6{
+    text-transform: lowercase ;
+}
+.text7{
+    text-shadow: gray 10px 0;
+    
+}
+.text8{
+    text-shadow: black 6px 6px 8px;
+}
+#Joker{
+    border-color: green;
+    
 }
