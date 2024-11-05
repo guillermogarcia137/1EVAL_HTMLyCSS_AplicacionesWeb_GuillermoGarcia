@@ -1,0 +1,12 @@
+html {
+    background-image: url(https://img1.wallspic.com/crops/6/9/6/4/6/164696/164696-star_wars-bb_8-darth_vader-poe_dameron-cartel-3840x2160.jpg);
+    background-size:2000px;
+}
+p{
+    font-size: 200px;
+    font-display: center;
+    color: orange;
+    text-align: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
