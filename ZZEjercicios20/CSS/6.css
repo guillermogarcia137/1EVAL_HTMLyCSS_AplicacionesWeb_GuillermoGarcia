@@ -1,0 +1,7 @@
+body{
+    font-size: 30px;
+}
+#Lista{
+    list-style-type:lower-roman;
+    font-weight: 600;
+}

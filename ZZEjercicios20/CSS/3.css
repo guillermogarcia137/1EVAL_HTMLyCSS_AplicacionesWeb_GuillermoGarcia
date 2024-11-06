@@ -1,0 +1,24 @@
+#Lista1{
+    list-style-type:disc;
+}
+body{
+    font-size: 30px;
+}
+ol, li{
+    font-weight: bold;
+}
+.Lista2{
+    list-style-type: square;
+}
+#Lista3{
+    list-style-type:circle ;
+}
+#España{
+    list-style:square ;
+}
+#Francia{
+    list-style: disc;
+}
+#Portugal{
+    list-style: circle;
+}
