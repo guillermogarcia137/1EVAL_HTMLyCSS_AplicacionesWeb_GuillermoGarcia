@@ -2,14 +2,18 @@ body,form, div{
     font-size: 20px;
     font-family: monospace;
     background-color: cornflowerblue;
+    position: fixed;
+    left: 33%;
 }
-table{
+form{
     background-color: cornflowerblue;
     border-collapse: collapse;
     border: 2px solid black;
+    position: fixed;  
+    right: ;
 }
-
-div{
+#Titulo-formulario{
     color: red;
-    borde
+    margin-top: 10%;
+    position: relative;
 }

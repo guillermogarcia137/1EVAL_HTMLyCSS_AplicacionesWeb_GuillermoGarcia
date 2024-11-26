@@ -17,26 +17,24 @@ body{
     border: black 2px solid;
     margin-right:2%;
     margin-top: 25%;
-    margin-bottom:º 25%;
+    margin-bottom: 25%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 .container {
     position: relative;
-    width: 78%;
+    width: 80%;
     height: 700px;
     margin-top: 3%;
     margin-right: 8%;
     background-color:lightgreen;
 }
-.container nav{
 
-}
 .nav-item{
     /*
     width: 50%;
-    height: 50%;*/
-    float: left;
+    height: 50%;
+    float: left;*/
     color: white;
     background-color:rgb(86, 86, 86);
     display: inline-block;
@@ -50,12 +48,12 @@ nav div{
 }
 figure {
     border: 3px solid black;
-    width:50px;
+    width:25%;
     background-color: white;
     border-radius: 10px;
     text-align: center;
     display:inline-block;
-
+    padding: 10px;
 }
 
 

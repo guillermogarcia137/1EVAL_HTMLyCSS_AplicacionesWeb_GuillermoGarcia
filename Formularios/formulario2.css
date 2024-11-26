@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+    font-family: monospace;
+}
+form{
+    border: 2px solid black;
+    border-color: solid black;
+    width: 30%;
+    position: fixed;
+    top: 30%;
+    left: 33%;
+}

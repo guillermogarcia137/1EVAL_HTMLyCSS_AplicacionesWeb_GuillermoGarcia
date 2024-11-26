@@ -1,0 +1,83 @@
+body{
+    background-color:lightgrey ;
+}
+.fixed-sidebar{
+    border: 2px solid black;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0,8em;
+    position: fixed;
+    width: 80px;
+    height:40%;
+    top: 30%;
+    text-align: center; 
+}
+.fixed-sidebar img{
+    width:93%;
+    margin: 3%;
+}
+
+.fixed-sidebar ul{
+    list-style: none;
+    padding-left: 5px;
+    
+}
+.container {
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 100px auto;
+    position: relative;
+    height: 700px;
+    width: 80%;
+}
+
+.container nav{
+    background-color: rgb(86,86,86);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.container nav div{
+    display: inline-block;/*Esto tiene que tener el -inblock, si no no funciona bien */
+    /*position: sticky; El fallo esta aqui*/
+    width: 20%;
+    color: white;
+    padding: 20px;
+    /*top: 3px; fallo*/
+}
+
+figure{
+    background-color: white;
+    border: 2px solid black;
+    position: static;
+    padding: 10px;
+}
+
+figure img{
+    width: 200px;
+}
+#li1{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    
+}
+
+#li2{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+#li3{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+#li4{
+    position: absolute;
+    left: 70%;
+    top: 30%;   
+}
